@@ -1,0 +1,45 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.option {
+  margin: 0 10px;
+}
+
+.result {
+  text-align: center;
+}
+
+#message {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#scoreboard {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#user-score,
+#computer-score {
+  font-weight: bold;
+}
